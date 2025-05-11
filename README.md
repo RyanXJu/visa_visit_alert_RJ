@@ -19,5 +19,6 @@ install.bat
 # Run the tool
 Open CMD, navigate to the folder where you installed the tool, run command line
 ```
+venv_visa_v_alert\Scripts\activate
 python alert.py
 ```
