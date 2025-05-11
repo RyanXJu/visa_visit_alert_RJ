@@ -69,4 +69,4 @@ while True:
     finally:
         if 'driver' in locals():
             driver.quit()
-        time.sleep(int(my_refresh_freq))
+        time.sleep(30)
