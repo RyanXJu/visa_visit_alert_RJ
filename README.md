@@ -16,8 +16,8 @@ does not auto book for you, you still need to manually book
 ```
 install.bat
 ```
-
-## After all intalled, run command line
+# Run the tool
+## Open CMD, navigate to the folder where you installed the tool, run command line
 ```
 python alert.py
 ```
