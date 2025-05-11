@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from datetime import datetime
 import time
 from playsound import playsound
+from config import *
 
 # Function to play a sound
 def play_alert_sound():
@@ -12,7 +13,7 @@ def play_alert_sound():
 
 # Aug 1 is fly to Portugal date
 # trip_date = datetime(2025, 9, 20)  # What is the latest appointment you want? 
-sessions_token = "https://www.ch-edoc-reservation.admin.ch/#/session?token=yQUZ5qy3&locale=en-US" # Obtain this link from the email directly
+sessions_token = my_sessions_token # Obtain this link from the email directly
 
 while True:
     try:
@@ -68,4 +69,4 @@ while True:
     finally:
         if 'driver' in locals():
             driver.quit()
-        time.sleep(30)
+        time.sleep(my_refresh_freq)

@@ -17,3 +17,7 @@ does not auto book for you, you still need to manually book
 install.bat
 ```
 
+## After all intalled, run command line
+```
+python alert.py
+```

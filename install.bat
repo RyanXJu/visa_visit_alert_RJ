@@ -19,10 +19,11 @@ copy config.example.py config.py
 
 REM Prompt the user for their account name and password
 set /p sessions_token="Enter sessions token: "
+set /p refresh_frequency="Refresh frequency secs (entre an integer, example: 30, 60, 120): "
 
 REM Append the account name and password to config.py
 echo my_sessions_token = "%sessions_token%" >> config.py
-
+echo my_refresh_freq = "%refresh_frequency%" >> config.py
 
 REM Confirm completion
 echo Repository cloned, virtual environment created, activated, requirements installed, config file copied.
