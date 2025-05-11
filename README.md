@@ -8,16 +8,16 @@ does not auto book for you, you still need to manually book
 
 
 # Setup the tool
-## Install Git and Python on your system
-
-## Create a folder for the repo
-## Open CMD, navigate to the folder of the repo
-## Command line
+- Install Git and Python on your system
+- Create a folder for the repo
+- Open CMD, navigate to the folder of the repo
+- Download install.bat or git clone repo
+- Command line
 ```
 install.bat
 ```
 # Run the tool
-## Open CMD, navigate to the folder where you installed the tool, run command line
+Open CMD, navigate to the folder where you installed the tool, run command line
 ```
 python alert.py
 ```
